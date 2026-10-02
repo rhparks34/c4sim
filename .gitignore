@@ -1,0 +1,22 @@
+# Data, checkpoints and outputs never go in git (Big Data Bowl data can't be redistributed)
+data/
+checkpoints/
+outputs/
+*.csv
+*.csv.gz
+*.parquet
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.pt
+*.pth
+*.zip
+
+# Python and OS
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+!metadata/*.csv
