@@ -6,9 +6,6 @@ actually ran and the quarterback's movement, c4sim predicts every coverage defen
 
 ## Results
 
-> These are the results reported in the abstract. The input preparation was rebuilt for this repository, and the table will be
-> updated after the model is retrained on the rebuilt inputs.
-
 Pooled over four folds: 1,866 Cover-4 passing plays in 248 games, each predicted by a model that never trained on its fold's 62 games.
 Each cell lists the real defense, then the standard, midpoint and route-break outputs. Error is per-coordinate RMSE in yards.
 
